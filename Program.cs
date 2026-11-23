@@ -55,6 +55,14 @@
             //foreach (var r in Result)
             //    Console.WriteLine($"{r.Category} - {r.UnitPrice}");
             #endregion
+
+            #region Q09
+            //var Result = ListGenerator.ProductList.Where(P => P.Category == "Beverages").OrderByDescending(P => P.UnitsInStock);
+            //foreach (var r in Result)
+            //    Console.WriteLine($"{r.ProductName} - {r.UnitsInStock}");
+            #endregion
+
+
         }
         static void DisplayResult(IEnumerable<Product> result)
         {
