@@ -13,6 +13,11 @@
             //var Result = ListGenerator.ProductList.Select(p => new { p.ProductName });
             //DisplayResult(Result);
             #endregion
+
+            #region Q03
+            //var Result = ListGenerator.ProductList.OrderBy(P => P.UnitPrice);
+            //DisplayResult(Result);
+            #endregion
         }
         static void DisplayResult(IEnumerable<Product> result)
         {
