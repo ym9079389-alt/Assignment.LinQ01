@@ -29,6 +29,22 @@
             //foreach (var r in Result)
             //    Console.WriteLine($"{r.ProductName} - {r.UnitPrice} - {r.Category}");
             #endregion
+
+            #region Q06
+            //var Result = ListGenerator.ProductList.Select(P => new 
+            //                                              { 
+            //                                              Name = P.ProductName,
+            //                                              Price = P.UnitPrice,
+            //                                              StockStatus = P.UnitsInStock > 0 ? "Available" : "Out of Stock"
+
+            //});
+
+            //    foreach (var r in Result)
+            //        Console.WriteLine($"{r.Name} | {r.Price} | {r.StockStatus}");
+
+            #endregion
+
+
         }
         static void DisplayResult(IEnumerable<Product> result)
         {
