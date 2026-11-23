@@ -77,6 +77,17 @@
             //foreach (var r in Result)
             //    Console.WriteLine(r);
             #endregion
+
+            #region Q12
+            //String[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+
+            //var Result = Arr.OrderBy(A => A.Length).ThenBy(A => StringComparer.OrdinalIgnoreCase);
+
+            //foreach (var r in Result)
+            //    Console.WriteLine(r);
+            #endregion
+
+
         }
         static void DisplayResult(IEnumerable<Product> result)
         {
