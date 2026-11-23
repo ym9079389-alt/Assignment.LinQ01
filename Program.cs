@@ -8,6 +8,11 @@
             //var Result = ListGenerator.ProductList.Where(p => p.Category == "Seafood");
             //DisplayResult(Result);
             #endregion
+
+            #region Q02
+            //var Result = ListGenerator.ProductList.Select(p => new { p.ProductName });
+            //DisplayResult(Result);
+            #endregion
         }
         static void DisplayResult(IEnumerable<Product> result)
         {
