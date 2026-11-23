@@ -50,7 +50,11 @@
             //    Console.WriteLine(String.Join(". ", r.Index, r.ProductName));
             #endregion
 
-
+            #region Q08
+            //var Result = ListGenerator.ProductList.OrderBy(P => P.Category).ThenByDescending(P => P.UnitPrice);
+            //foreach (var r in Result)
+            //    Console.WriteLine($"{r.Category} - {r.UnitPrice}");
+            #endregion
         }
         static void DisplayResult(IEnumerable<Product> result)
         {
