@@ -1,4 +1,4 @@
-﻿namespace Assignment01.LinQ
+﻿namespace Assignment.LinQ01
 {
     public class Product
     {
