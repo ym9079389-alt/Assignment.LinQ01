@@ -87,7 +87,14 @@
             //    Console.WriteLine(r);
             #endregion
 
+            #region Q13
+            //string[] digits = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
+            //var Result = digits.Where(d => d[1] == 'i').Reverse();
+
+            //foreach (var r in Result)
+            //    Console.WriteLine(r);
+            #endregion
         }
         static void DisplayResult(IEnumerable<Product> result)
         {
