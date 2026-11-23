@@ -71,6 +71,12 @@
             //foreach (var r in Result)
             //    Console.WriteLine($"{r.CustomerID} - {r.OrderDate}");
             #endregion
+
+            #region Q11
+            //var Result = ListGenerator.ProductList.Select((p, i) => $"{i + 1}. {p.ProductName}");
+            //foreach (var r in Result)
+            //    Console.WriteLine(r);
+            #endregion
         }
         static void DisplayResult(IEnumerable<Product> result)
         {
