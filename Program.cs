@@ -23,6 +23,12 @@
             //var Result = ListGenerator.ProductList.Where(P => P.UnitPrice > 10 && P.UnitPrice < 30);
             //DisplayResult(Result);
             #endregion
+
+            #region Q05
+            //var Result = ListGenerator.ProductList.Where(P => P.UnitsInStock > 0 && P.Category == "Condiments");
+            //foreach (var r in Result)
+            //    Console.WriteLine($"{r.ProductName} - {r.UnitPrice} - {r.Category}");
+            #endregion
         }
         static void DisplayResult(IEnumerable<Product> result)
         {
