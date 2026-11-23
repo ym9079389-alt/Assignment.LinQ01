@@ -44,6 +44,12 @@
 
             #endregion
 
+            #region Q07
+            //var Result = ListGenerator.ProductList.Select((p, index) => new { Index = index + 1, p.ProductName });
+            //foreach (var r in Result)
+            //    Console.WriteLine(String.Join(". ", r.Index, r.ProductName));
+            #endregion
+
 
         }
         static void DisplayResult(IEnumerable<Product> result)
