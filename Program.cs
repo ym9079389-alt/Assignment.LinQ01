@@ -62,7 +62,15 @@
             //    Console.WriteLine($"{r.ProductName} - {r.UnitsInStock}");
             #endregion
 
+            #region Q10
+            //var Result = from C in ListGenerator.CustomerList
+            //             from O in C.Orders
+            //             where O.OrderDate.Year >= 1971
+            //             select new { C.CustomerID, O.OrderDate };
 
+            //foreach (var r in Result)
+            //    Console.WriteLine($"{r.CustomerID} - {r.OrderDate}");
+            #endregion
         }
         static void DisplayResult(IEnumerable<Product> result)
         {
