@@ -18,6 +18,11 @@
             //var Result = ListGenerator.ProductList.OrderBy(P => P.UnitPrice);
             //DisplayResult(Result);
             #endregion
+
+            #region Q04
+            //var Result = ListGenerator.ProductList.Where(P => P.UnitPrice > 10 && P.UnitPrice < 30);
+            //DisplayResult(Result);
+            #endregion
         }
         static void DisplayResult(IEnumerable<Product> result)
         {
